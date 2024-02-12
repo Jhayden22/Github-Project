@@ -32,6 +32,13 @@ nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
+    font-size: large;
+}
+
+nav a:hover{
+    color: tan;
+    text-decoration: underline;
+    text-decoration-color: tan;
 }
 .container {
     width: 80%;
@@ -39,7 +46,7 @@ nav a {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
 }
 footer {
     background-color: #333;
